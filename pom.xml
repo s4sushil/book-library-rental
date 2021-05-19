@@ -14,7 +14,7 @@
   <groupId>com.hsbc</groupId>
   <artifactId>book-library-rental</artifactId>
   <version>1.0.0</version>
-  <name>library-rental-app</name>
+  <name>book-library-rental</name>
   <description>Manages book library and book rentals</description>
 
   <dependencies>
