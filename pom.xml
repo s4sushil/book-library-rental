@@ -12,7 +12,7 @@
   </parent>
 
   <groupId>com.hsbc</groupId>
-  <artifactId>library-rental</artifactId>
+  <artifactId>book-library-rental</artifactId>
   <version>1.0.0</version>
   <name>library-rental-app</name>
   <description>Manages book library and book rentals</description>
