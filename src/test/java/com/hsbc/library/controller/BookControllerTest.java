@@ -64,6 +64,7 @@ public class BookControllerTest {
 
         verify(bookService, times(1)).findAll();
         verifyNoMoreInteractions(bookService);
+
     }
 
     @Test
@@ -105,6 +106,7 @@ public class BookControllerTest {
         mvc.perform(delete("/api/v1/library/books/1").contentType(MediaType.APPLICATION_JSON))
                 .andDo(print())
                 .andExpect(status().isNoContent());
+
     }
 
 }
