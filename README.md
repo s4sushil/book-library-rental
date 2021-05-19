@@ -28,6 +28,8 @@ password=book
 ![H2 DB](images/h2.png)
 <br>
 
+![H2 Tabs](images/h2-tables.png)
+
 ## Domain Model
 ![Model](images/model.png)
 <br>
