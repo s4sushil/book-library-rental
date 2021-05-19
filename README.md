@@ -2,10 +2,14 @@
 This project manages books in the library. It can borrow, reissue books and items provided by user
 
 # DESCRIPTION :
-The project is built on Java 11 using maven configuration and Spring boot start up web.
+The project is built on Java 11 using maven configuration and Spring boot start up web.<br>
 http://localhost:8080/api/v1/books loads the books.
+<br>
 curl -X GET "http://localhost:8080/api/v1/library/books" -H "accept: application/json"
+<br>
 curl -X POST "http://localhost:8080/api/v1/library/book" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"author\": \"Sushil Choudhary\", \"publicationYear\": 0, \"title\": \"sushil's Book\"}"
+<br>
+<br>
 
 # Swagger Link:
 http://localhost:8080/swagger-ui/index.html#/
