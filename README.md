@@ -12,10 +12,22 @@ http://localhost:8080/swagger-ui/index.html#/
 
 # H2 Console Link:
 http://localhost:8080/h2-console/
+<br>
 datasource name = libraryDB
+<br>
 username=book
+<br>
 password=book
+<br>
 
+## Swagger Api Docs & Model
 ![Swagger Api Docs and Endpoints](images/api.png)
+<br>
+
+## H2 Tables
 ![H2 DB](images/h2.png)
+<br>
+
+## Domain Model
 ![Model](images/model.png)
+<br>
